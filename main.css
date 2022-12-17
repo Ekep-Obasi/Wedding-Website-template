@@ -1,0 +1,189 @@
+*{
+  font-weight: normal;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: "Raleway", sans-serif; 
+}
+.full-screen-container{
+  background-color: #F1E1E1;
+}
+.response{
+  width: 100vw;
+  height: 40vh;
+  background-color: #FFDDDC;
+}
+.image-container{
+  background-image: url('wedding_couple.jpg');
+  filter: grayscale(50%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  position: relative;
+}
+.image-container .text-container{
+  display: block;
+  position: absolute;
+  left: 50%;
+  margin-right:-50% ;
+  transform: translate(-50%,50%);
+}
+#couple-name,#subtitle,#date{
+  font-size: 1.8rem;
+  margin: 7px;
+}
+.text-container{
+  margin-top: 25vh;
+  font-size: 1.5rem;
+  display: block;
+  border: 1px solid transparent;
+  color: white;
+}
+#couple-name{
+  font-size: 3.8rem;
+}
+.text-container h1{
+  font-weight: normal;
+}
+.flower{
+  background-image: url('flowers.jpg');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.flower .some-text{
+   width:fit-content;
+   margin-left: auto;
+   margin-right: auto;
+   transform: translateY(45vh);
+   font-size: 1.5rem;
+   font-weight: lighter;
+   color: white;
+}
+.wedding_location, .couples_image{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+ height: 50%;
+ filter: grayscale(100%);
+}
+#J_J,#W_W{
+  text-align: center;
+  font-size: 3rem;
+  color: grey;
+  font-weight: 50;
+  margin: 35px;
+}
+#wedding-dtls a{
+  text-decoration: none; 
+  color: white;
+}
+.main-text{
+  text-align: justify;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+  font-style: oblique;
+  color: black;
+}
+
+.details{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  position: relative;
+}
+li{
+  list-style: none;
+  padding: 7px;
+}
+.details-p{
+  padding: 0;
+  text-align: center;
+  font-size: 2rem;
+}
+.response .everything{
+  width: 50vw;
+  margin: auto;
+  transform: translateY(50%);
+  
+}
+.response h1,p{
+  text-align: center;
+  align-items: center;
+  padding: 7px;
+}
+.rsvp-btn p{
+  width: 200px;
+  padding: 15px;
+  background-color: #f88078;
+  border-radius:7px ;
+  margin:auto;
+}
+.footer{
+  height: 12vh;
+  color: white;
+  background-color: black;
+}
+.footer p{
+  padding-top: 15px;
+  font-size: 0.8rem;
+}
+.footer p a{
+  color: white;
+}
+img{
+  border-radius: 6px;
+}
+.wedding-dt-btn p{
+  width: 250px;
+  padding: 15px;
+  background-color: black;
+  color: White;
+  margin:auto;
+  margin-bottom: 25px; 
+}
+.rsvp-btn p:hover{
+  background-color: rgb(167, 167, 167);
+}
+.wedding-dt-btn p:hover{
+  background-color: rgb(167, 167, 167);
+}
+.menu{
+  position:fixed;
+  background-color: #cccccd;
+  opacity: 0.7;
+  bottom: 0;
+  z-index: +1;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 5.5vh;
+}
+.menu ul li{
+  display: inline;
+  list-style: none;
+  top: 0;
+  margin-left: 15vw;
+  padding: 15px;
+}
+.menu ul li a{
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: black;
+}
+.menu ul li:hover{
+  background-color: #F1E1E1;
+}
